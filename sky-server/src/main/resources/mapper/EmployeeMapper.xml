@@ -30,7 +30,7 @@
                 sex=#{sex},
             </if>
             <if test="idNumber!=null">
-                id_Nmber=#{idNumber},
+                id_Number=#{idNumber},
             </if>
             <if test="updateTime!=null">
                 update_time=#{updateTime},
@@ -39,11 +39,9 @@
                 update_User=#{updateUser},
             </if>
             <if test="status!=null">
-                status=#{status},
+                status=#{status}
             </if>
         </set>
-        <where>
-            id=#{id}
-        </where>
+        where id=#{id}
     </update>
 </mapper>
