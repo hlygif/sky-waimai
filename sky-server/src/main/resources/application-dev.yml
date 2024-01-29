@@ -11,3 +11,6 @@ sky:
     access-key-id: LTAI5tN6LERe8zfMC992evpM
     access-key-secret: N5K47MjPvLai9XkVbwDAfJIKGlr7vr
     bucket-name: asky-itcasta
+  redis:
+    host: localhost
+    port: 6379
